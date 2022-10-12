@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    div{
+    position: relative;
+    right: 100px;
+    }
+    .search{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    transition: width 0.4s ease-in;
+    border-radius: 50px;
+    border-color: red;
+    }
+    .fas{
+    position: fixed;
+    pointer-events: none;
+    padding: 7px;
+    
+    }
+ .search:focus{
+    width: 50%;
+    border-radius: 0;
+    }
+    
